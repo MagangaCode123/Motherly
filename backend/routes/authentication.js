@@ -3,11 +3,9 @@ const express = require('express')
 const bcrypt = require('bcrypt');
 const User = require('../models/userModel')
 const jwt = require('jsonwebtoken')
-
-
 const router = express.Router()
 
-//www.motherly.com/auth/register
+
 
 
 router.post('/register', async(req,res)=>{
